@@ -23,15 +23,40 @@ int main(){
     float pib2;
     int pontos2;
 
-    //Coleta de dados carta número 1
+    //Coleta de dados da carta número 1
     printf("Dados da carta número 1: \n");
     printf("Estado (Letra de A a H): \n");
     scanf("%c", &estado1);
     printf("Código da Carta (ex: A01): \n");
     scanf("%s", &codigo1);
     printf("Nome da Cidade: \n");
-    scanf("")
-    
+    scanf("%s", &cidade1);
+    printf("População: \n");
+    scanf("%d", &população1);
+    printf("Aréa (em km²): \n");
+    scanf("%f", &area1);
+    printf("PIB: \n");
+    scanf("%f", &pib1);
+    printf("Número de Pontos Turísticos: \n");
+    scanf("%d", &pontos1);
+
+    //Coleta de dados da carta número 2
+    printf("Dados da carta número 2: \n");
+    printf("Estado (Letra de A a H): \n");
+    scanf("%c", &estado2);
+    printf("Código da Carta (ex: A02): \n");
+    scanf("%s", &codigo2);
+    printf("Nome da Cidade: \n");
+    scanf("%s", &cidade2);
+    printf("População: \n");
+    scanf("%d", &população2);
+    printf("Aréa (em km²): \n");
+    scanf("%f", &area2);
+    printf("PIB: \n");
+    scanf("%f", &pib2);
+    printf("Número de Pontos Turísticos: \n");
+    scanf("%d", &pontos2);
+
     return 0;
 
 
