@@ -6,7 +6,7 @@ int main(){
     //Carta número 1
 
     char estado1;
-    char codigo1 [50];
+    char codigo1 [5];
     char cidade1 [50];
     int população1;
     float area1;
@@ -16,7 +16,7 @@ int main(){
     //Carta número 2
 
     char estado2;
-    char codigo2 [50];
+    char codigo2 [5];
     char cidade2 [50];
     int população2;
     float area2;
@@ -24,8 +24,13 @@ int main(){
     int pontos2;
 
     //Coleta de dados carta número 1
-    printf("");
-    scanf("");
+    printf("Dados da carta número 1: \n");
+    printf("Estado (Letra de A a H): \n");
+    scanf("%c", &estado1);
+    printf("Código da Carta (ex: A01): \n");
+    scanf("%s", &codigo1);
+    printf("Nome da Cidade: \n");
+    scanf("")
     
     return 0;
 
