@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("SUPER TRUNFO \n");
+    printf("DESAFIO SUPER TRUNFO \n");
 
     //Carta número 1
 
